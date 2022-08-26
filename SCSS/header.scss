@@ -1,0 +1,31 @@
+.header {}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.burger {
+    position: relative;
+}
+.burger > span, .burger::after, .burger::before {
+    content: '';
+    width: 75%;
+    height: 7.5%;
+    background-color: var(--color_main);
+    border-radius: 1000px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.burger > span {
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.burger::after  { bottom: 25%; }
+.burger::before { top: 25%; }
+
+.logo, .header__burger {
+    width:  40px;
+    height: 40px;
+}

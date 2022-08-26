@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  font-family: var(--ff_main);
+  color: var(--color_text);
+  font-weight: 300;
+  line-height: 1.3em;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 32px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 30px;
+}
+
+.main__column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

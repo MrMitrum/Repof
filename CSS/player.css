@@ -1,0 +1,65 @@
+.player-container {
+  display: flex;
+  width: 1000%;
+  height: 100%;
+}
+
+.player {
+  width: 100%;
+  min-height: 100%;
+  max-width: 700px;
+  margin: 0 10%;
+  color: var(--color_text__player);
+  background-image: url(../IMG/Player_BG.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.player > * {
+  margin: 1.5%;
+}
+
+.player__title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.player__time {
+  font-size: 13px;
+}
+
+.player__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player__skip {
+  width: 24px;
+  height: 24px;
+  margin: 13px;
+}
+
+.player__skip_forward > * {
+  transform: rotateZ(180deg);
+}
+
+.player__play-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color_main__dark_1);
+  border: solid 3px var(--color_main__dark_2);
+  border-radius: 100%;
+}
+
+.player__play-icon > * {
+  margin-right: -5%;
+}/*# sourceMappingURL=player.css.map */
